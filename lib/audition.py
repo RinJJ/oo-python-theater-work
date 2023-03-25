@@ -10,7 +10,7 @@ class Audition:
         self.role = role
         Audition.all.append(self)
 
-    @property
+
     def what_role(self):
         return self.role
 
